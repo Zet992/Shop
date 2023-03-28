@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" herf="style.css">
+    <title>{% block title %}DjangoShop{% endblock %}</title>
 </head>
-<body>
 
+<body>
+    <header>
+        <!-- Something -->
+    </header>
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
 </body>
 </html>
